@@ -1,5 +1,5 @@
 # Neurodynamics
-Code to generate data for the manuscript "Breeding novel solutions in the brain: A model of Darwinian neurodynamics".
+Code to generate data for the manuscript "Breeding novel solutions in the brain: a model of Darwinian neurodynamics".
 Other results in the paper were done by András Szilágy (found at: [TBA]).
 
 Files in this repository:
