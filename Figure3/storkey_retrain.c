@@ -1,5 +1,3 @@
-// By András Szilágyi
-
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdint.h>
@@ -48,7 +46,7 @@ double randd(void)
 
 #define N (200)  // number of neurons
 #define NN (20) // number of networks
-#define RETRAINNUM (10)
+#define RETRAINNUM (1)
 #define PN (6) // depth of memory
 #define Th (0.0) // firing threshold
 #define NOUP (100) // number of update steps
@@ -153,7 +151,7 @@ float relat_Hamm(float* in, float* ou)
     
   rhd=rhd/(float)N;
   
-  return(rhd);
+  return(1.0-rhd);
   
 }
 
