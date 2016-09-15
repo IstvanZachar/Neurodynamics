@@ -3,6 +3,8 @@ Code to generate data for the manuscript "*Breeding novel solutions in the brain
 appearingsubmitted to Faculty of 1000 (http://f1000.com/).
 
 Assigned Zenodo doi: 10.5281/zenodo.154100 
+
+[![DOI](https://zenodo.org/badge/68013791.svg)](https://zenodo.org/badge/latestdoi/68013791)
  
 Some files and data in this repository were done by András Szilágy (indicated per code file).
 Other results mentioned in the paper were done by András Szilágyi and can be found at: [TBA].
