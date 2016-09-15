@@ -1,9 +1,16 @@
 # Neurodynamics
-Code to generate data for the manuscript "Breeding novel solutions in the brain: a model of Darwinian neurodynamics".
-Other results in the paper were done by András Szilágy (found at: [TBA]).
+Code to generate data for the manuscript "*Breeding novel solutions in the brain: a model of Darwinian neurodynamics*"
+appearingsubmitted to Faculty of 1000 (F1000, http://f1000.com/).
+Some files and data in this repository were done by András Szilágy (indicated per code file).
+Other results mentioned in the paper were done by András Szilágyi and can be found at: [TBA].
 
-Files in this repository:
-  - `meta7.c`: program code in C to simulate selection and evolution within a periodically changing environment. Can also be used to test a ton of different things with attractor neural networks.
-     - `randomGenerator.c`: function library to be included with `meta7.c` containing custom pseudorandom number generators.
-     - `colors.c`: function library to be included with `meta7.c` containing some higlighting functionality.
-  - `meta.nb`: program code in Wolfram Language (to be run with WRI's **Mathematica**) to simulate different attractor networks (abstract metamodel).
+The provided code is sufficient to reproduce the figures of the paper, but for convenience, I've provided the data themselves.
+The C files in this repository can be compiled with standard C compilers, e.g. gcc. Custom libraries are included, standard libraries are easily available on the net.
+The Wolfram Language files are optimized under Wolfram's *Mathematica* 11.0.0.0 (https://www.wolfram.com/mathematica/), probably compatible with earlier versions also, with minor changes.
+
+Queries and comments should be issued to the appropriate author of the code:
+   István Zachar: istvan.zachar80@gmail.com
+   András Szilágy: and.szilagyi@gmail.com
+   
+By István Zachar
+2016
